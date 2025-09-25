@@ -1,0 +1,85 @@
+%\documentclass[landscape]{nptikzposter}  % default a0paper. Pass the argument [..] if you'd like to change
+\documentclass{nptikzposter}
+
+% \addbibresource{ghosts.bib} % Add bibtex file here
+
+% Infos
+\title{Title Here}
+\institute{School of ..., University of ...}
+\author{..., \underline{Damodar Rajbhandari}, ...}
+% \titlegraphic{\includegraphics[scale=0.12]{logo.pdf}}
+
+
+\begin{document}
+\maketitle
+
+% block 1
+\block{\badge{1} Blocktitle1}{
+\begin{equation}
+    x = y \nonumber
+\end{equation}
+
+\begin{itemize}
+    \item ...
+    \item ...
+\end{itemize}
+
+\innerblock{Heading}{Yes}
+
+\coloredbox{Noting...}
+
+% \begin{tikzfigure}[Caption here: need to be inside the block]
+%     \includegraphics[width=0.1\textwidth]{fig.pdf}
+% \end{tikzfigure}
+
+}
+
+% 2 & 3
+\begin{columns}
+    \column{0.5}
+    \block{\badge{2} Blocktitle2}{
+    ...
+    }
+
+    \column{0.5}
+    \block{\badge{3} Blocktitle3}{
+    ...
+    }
+\end{columns}
+
+% 4 & 5
+\begin{columns}
+    \column{0.5}
+    \block{\badge{4} Blocktitle4}{
+    ...
+    }
+
+    \column{0.5}
+    \block{\badge{5} Blocktitle5}{
+    ...
+    }
+\end{columns}
+
+% 5 & 6
+\begin{columns}
+    \column{0.5}
+    \block{\badge{6} Blocktitle6}{
+    ...
+    }
+
+    \column{0.5}
+    \block{\badge{7} Blocktitle7}{
+    ...
+    }
+\end{columns}
+
+\block{References}{
+    % \printbibliography[heading=none]
+}
+
+% Acknowledgement
+\block{}{
+\centering Acknowledgement here ...
+}
+
+\end{document}
