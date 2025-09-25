@@ -14,6 +14,7 @@
 
 % --- Packages ---
 \RequirePackage{xcolor}
+\RequirePackage[backend=bibtex]{biblatex}
 
 % --- Colors using xcolor package ---
 % using xcolor
