@@ -20,7 +20,6 @@
 % using xcolor
 \definecolor{npblue}{HTML}{303291} % Blue based upon Nepal's flag
 \definecolor{npred}{HTML}{eb1d25} % Red based upon Nepal's flag
-\definecolor{npblack}{HTML}{231f20} % Black
 
 \defineblockstyle{npSlide}{
 titlewidthscale=1, bodywidthscale=1, titleleft,
