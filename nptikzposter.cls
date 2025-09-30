@@ -38,7 +38,7 @@ bodyinnersep=1cm
 \useblockstyle{npSlide}
 
 % Title color gradient
-\definecolor{titlebgcolor}{named}{npred} % Red based upon Nepal's flag
+\definecolor{titlebgcolor}{named}{npred}
 \definecolor{framecolor}{named}{npblue}
 
 % Placing the logo on the title page to the right
