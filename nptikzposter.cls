@@ -61,6 +61,24 @@ bodyinnersep=1cm
 }
 \makeatother
 
+% Tikztable
+\makeatletter
+\newcounter{tablecounter}
+\newenvironment{tikztable}[1][]{
+  \def \rememberparameter{#1}
+  \vspace{10pt}
+  \refstepcounter{tablecounter}
+  \begin{center}
+  }{
+    \ifx\rememberparameter\@empty
+    \else
+    \\[10pt]
+    {\small Tab.~\thetablecounter: \rememberparameter}
+    \fi
+  \end{center}
+}
+\makeatother
+
 % Numbering batch
 \newcommand{\badge}[1]{\tikz[baseline=-0.7ex]{\node[draw, circle, inner sep=6pt, text=white] {#1};} \hspace{0.2cm}}
 
